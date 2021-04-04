@@ -11,6 +11,9 @@ mix.js([
     'src/js/application.js',
     'src/js/jquery.history.js',
     ], 'public/assets/js/app.js')
-   .sass('src/scss/index.scss', 'public/assets/css/index.css');
+   .sass('src/scss/index.scss', 'public/assets/css/index.css')
 
 
+   if (mix.inProduction()) {
+    mix.sourceMaps();
+}

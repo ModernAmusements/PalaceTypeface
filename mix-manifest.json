@@ -1,4 +1,6 @@
 {
     "/public/assets/js/app.js": "/public/assets/js/app.js",
-    "/public/assets/css/index.css": "/public/assets/css/index.css"
+    "/public/assets/css/index.css": "/public/assets/css/index.css",
+    "/public/assets/js/app.js.map": "/public/assets/js/app.js.map",
+    "/public/assets/css/index.css.map": "/public/assets/css/index.css.map"
 }
